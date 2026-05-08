@@ -7,26 +7,26 @@ created: '2026-05-08'
 modified: '2026-05-08'
 reconciled: false
 tags:
-- E-Commerce
 - Marketplace
-- Live Shopping
-- Auctions
-- Mobile
+- Live Commerce
+- Collectibles
+- Resale
 - Rate Limiting
 - Quotas
 - Throttling
-description: Placeholder rate-limit artifact for Whatnot. Replace with real limits once researched.
-notes: Initial scaffold — limits have not yet been reconciled.
+description: Whatnot does not publish API rate limits publicly. Partner-specific quotas are governed by
+  partnership agreements.
+notes: Honor 429 and Retry-After.
 sources:
-- https://www.whatnot.com/
+- https://www.whatnot.com/sellers
 responseCodes:
   throttled: 429
 limits:
-- name: Default
-  scope: account
-  metric: varies
-  limit: see provider documentation
-  notes: Pending reconciliation.
+- name: Default Partner
+  scope: partner
+  metric: requests
+  limit: not publicly documented
+  notes: Per partner agreement.
 policies:
 - name: Backoff Strategy
   description: Clients should implement exponential backoff with jitter and honor any Retry-After header.
