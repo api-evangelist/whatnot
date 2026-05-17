@@ -1,7 +1,7 @@
 aid: whatnot
 url: https://raw.githubusercontent.com/api-evangelist/whatnot/refs/heads/main/apis.yml
 name: Whatnot
-x-type: company
+kind: company
 description: Whatnot is a live-stream commerce marketplace focused on collectibles and resale categories.
   Whatnot offers limited public APIs for sellers/streamers and approved partners; integration is largely
   managed through the Whatnot Seller App and partner program rather than a self-serve developer portal.
