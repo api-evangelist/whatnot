@@ -7,39 +7,43 @@ description: Whatnot is a live-stream commerce marketplace focused on collectibl
   managed through the Whatnot Seller App and partner program rather than a self-serve developer portal.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-- Marketplace
-- Live Commerce
-- Collectibles
-- Resale
+  - Marketplace
+  - Live Commerce
+  - Collectibles
+  - Resale
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
 apis:
-- aid: whatnot:seller-api
-  name: Whatnot Seller / Partner API
-  description: Limited partner-facing endpoints for inventory and order integration with Whatnot. Not
-    a publicly documented developer API; access is contingent on Whatnot Seller approval and partnership.
-  humanURL: https://www.whatnot.com/sellers
-  tags:
-  - REST
-  - Seller
-  - Partner
-  properties:
-  - type: Sellers Page
-    url: https://www.whatnot.com/sellers
-  - type: Help
-    url: https://help.whatnot.com/
+  - aid: whatnot:seller-api
+    name: Whatnot Seller / Partner API
+    description: Limited partner-facing endpoints for inventory and order integration with Whatnot. Not
+      a publicly documented developer API; access is contingent on Whatnot Seller approval and partnership.
+    humanURL: https://www.whatnot.com/sellers
+    tags:
+    - REST
+    - Seller
+    - Partner
+    properties:
+    - type: Sellers Page
+      url: https://www.whatnot.com/sellers
+    - type: Help
+      url: https://help.whatnot.com/
 common:
-- type: Website
-  url: https://www.whatnot.com/
-- type: Developer
-  url: https://www.whatnot.com/sellers
-- type: Plans
-  url: plans/whatnot-plans-pricing.yml
-- type: RateLimits
-  url: rate-limits/whatnot-rate-limits.yml
-- type: FinOps
-  url: finops/whatnot-finops.yml
+  - type: GitHubOrganization
+    url: https://github.com/Whatnot-Inc
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/whatnot-inc
+  - type: Website
+    url: https://www.whatnot.com/
+  - type: Developer
+    url: https://www.whatnot.com/sellers
+  - type: Plans
+    url: plans/whatnot-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/whatnot-rate-limits.yml
+  - type: FinOps
+    url: finops/whatnot-finops.yml
 maintainers:
-- FN: Kin Lane
-  email: kin@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
