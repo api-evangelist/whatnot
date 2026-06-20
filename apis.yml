@@ -5,7 +5,7 @@ kind: company
 description: Whatnot is a live-stream commerce marketplace focused on collectibles and resale categories.
   Whatnot offers limited public APIs for sellers/streamers and approved partners; integration is largely
   managed through the Whatnot Seller App and partner program rather than a self-serve developer portal.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Marketplace
   - Live Commerce
