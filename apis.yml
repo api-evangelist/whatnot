@@ -30,6 +30,8 @@ apis:
     - type: Help
       url: https://help.whatnot.com/
 common:
+  - type: DomainSecurity
+    url: security/whatnot-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Whatnot-Inc
   - type: LinkedIn
