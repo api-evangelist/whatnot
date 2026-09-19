@@ -46,6 +46,10 @@ apis:
     tags:
     - REST
     - Seller
+    - Partners
+    tags_raw:
+    - REST
+    - Seller
     - Partner
     properties:
     - type: Sellers Page
