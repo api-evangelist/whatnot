@@ -1,4 +1,4 @@
-# Whatnot (whatnot)
+# Whatnot
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,29 +66,100 @@
 
 Whatnot is a live-stream commerce marketplace focused on collectibles and resale categories. Whatnot offers limited public APIs for sellers/streamers and approved partners; integration is largely managed through the Whatnot Seller App and partner program rather than a self-serve developer portal.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/whatnot/refs/heads/main/apis.yml)
+**Areas:** Marketplace · Live Commerce · Collectibles · Resale
 
-## Type
-- **x-type:** company
+## Whatnot on APIs.io
 
-## Tags
-- Marketplace, Live Commerce, Collectibles, Resale
+Everything profiled for Whatnot is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/whatnot/](https://apis.io/providers/whatnot/)** — or go straight to one of the APIs or properties below.
 
-## APIs
-- **Whatnot Seller / Partner API** — limited partner-only endpoints; no public self-serve developer portal. Sellers info: https://www.whatnot.com/sellers
+### APIs (1)
 
-## Timestamps
-- **Created:** 2026-05-08
-- **Modified:** 2026-05-08
+- [Whatnot Seller / Partner API](https://apis.io/apis/whatnot/seller-api/) — Limited partner-facing endpoints for inventory and order integration with Whatnot. Not a publicly documented developer API; access is contingent on Whatnot…
 
-## Common Properties
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Whatnot Domain Security](https://apis.io/security/whatnot/whatnot-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Whatnot Plans Pricing](https://apis.io/plans/whatnot/whatnot-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Whatnot Rate Limits](https://apis.io/rate-limits/whatnot/whatnot-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Whatnot Finops](https://apis.io/finops/whatnot/whatnot-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.whatnot.com/)
-- [Developer Portal](https://www.whatnot.com/sellers)
-- [Plans](plans/whatnot-plans-pricing.yml) — marketplace take rate; partner API by approval (reconciled: false)
-- [RateLimits](rate-limits/whatnot-rate-limits.yml) — per partner agreement (reconciled: false)
-- [FinOps](finops/whatnot-finops.yml) — FOCUS-aligned commission model (reconciled: false)
+- [GitHub](https://github.com/Whatnot-Inc)
 
-## Maintainers
-**FN:** Kin Lane
+## API Evangelist rating
 
-**Email:** kin@apievangelist.com
+**Kin Score 5.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/whatnot/](https://apis.io/providers/whatnot/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Whatnot: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/whatnot/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
